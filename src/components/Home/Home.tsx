@@ -1,6 +1,6 @@
 import React, { FC, useEffect, useState } from 'react';
 import axios from 'axios';
-import moment from 'moment';
+// import moment from 'moment';
 import { Button, TextField } from '@mui/material';
 
 interface Data {
@@ -33,21 +33,20 @@ export const Home = () => {
         setPost({ ...post, content: e.target.value });
     };
 
+    console.log(data, 'data')
+
     return (
         <>
 
-            <TextField id="outlined-basic"
+            <TextField
                 label="Имя"
-                variant="outlined"
                 onChange={(newValue) => handleTitleChange(newValue)} />
 
-            <TextField id="outlined-basic"
+            <TextField 
                 label="Модель"
-                variant="outlined"
                 onChange={(newValue) => handleAuthorChange(newValue)} />
-            <TextField id="outlined-basic"
+            <TextField 
                 label="Цена"
-                variant="outlined"
                 onChange={(newValue) => handleContentChange(newValue)} />
 
             <Button variant="outlined"

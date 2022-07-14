@@ -4,11 +4,16 @@ import './App.scss'
 
 function App() {
   return (
-    <div className="App">
-      <div className='head'>
-      </div>
-      <Home />
-    </div>
+    <div>
+    <nav
+      style={{
+        borderBottom: "solid 1px",
+        paddingBottom: "1rem",
+      }}
+    >
+    </nav>
+    <Home/>
+  </div>
   );
 }
 
