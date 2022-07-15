@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
 .parent {
+    
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 60px repeat(4, 1fr);
@@ -8,6 +11,7 @@
 }
 
 .div1 {
+    font-family: 'Yuji Syuku', serif;
     outline: none;
     text-decoration: none;
     color: whitesmoke;
@@ -21,6 +25,7 @@
 }
 
 .div2 {
+    font-family: 'Yuji Syuku', serif;
     outline: none;
     text-decoration: none;
     color: whitesmoke;
@@ -34,6 +39,7 @@
 }
 
 .div3 {
+    font-family: 'Yuji Syuku', serif;
     outline: none;
     text-decoration: none;
     color: whitesmoke;
@@ -47,6 +53,7 @@
 }
 
 .div4 {
+    font-family: 'Yuji Syuku', serif;
     outline: none;
     text-decoration: none;
     color: whitesmoke;
@@ -61,5 +68,5 @@
 
 @keyframes mymove {
     from {background-color: black; color: whitesmoke}
-    to {background-color: pink; color: black}
+    to {background-color: pink; color: black} 
   }

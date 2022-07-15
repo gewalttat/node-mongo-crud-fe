@@ -1,0 +1,72 @@
+.parent_hoodie {
+    margin: 24px;
+    display: grid;
+    grid-template-columns: 10% repeat(3, 25%) 1fr;
+    grid-template-rows: repeat(3, 400px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.hoodie1 {
+    grid-area: 1 / 2 / 2 / 3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie2 {
+    grid-area: 1 / 3 / 2 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie3 {
+    grid-area: 1 / 4 / 2 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie4 {
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie5 {
+    grid-area: 2 / 3 / 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie6 {
+    grid-area: 2 / 4 / 3 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie7 {
+    grid-area: 3 / 2 / 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie8 {
+    grid-area: 3 / 3 / 4 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodie9 {
+    grid-area: 3 / 4 / 4 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
