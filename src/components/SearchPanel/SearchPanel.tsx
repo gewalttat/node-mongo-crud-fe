@@ -1,4 +1,5 @@
 import React, {FC, useState} from 'react'
+import { Logo } from '../../shared/static/Logo';
 import style from './SearchPanel.module.scss'
 // interface SearchPanelProps {
 
@@ -9,6 +10,7 @@ export const SearchPanel:FC = () => {
   return (
     <>
     <div className={style.searchPanelContainer}>
+      <Logo/>
         <div className={style.searchPanelContainer__searchBar}>
             <input value={inputState} 
                    placeholder={'Поиск'}
