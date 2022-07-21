@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+.searchPanelContainer {
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__searchBar {
+        width: 50%;
+        height: 30px;
+        border: none;
+        display: inline-flex;
+
+        &__input {
+            width: 100%;
+            height: 100%;
+            outline: none;
+            background-color: darkgrey;
+            border: none;
+            padding-left: 10px
+        }
+    }
+}

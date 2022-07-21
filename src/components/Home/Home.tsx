@@ -2,6 +2,7 @@ import React, { FC, useEffect, useState } from 'react';
 import axios from 'axios';
 // import moment from 'moment';
 import { Button, TextField } from '@mui/material';
+import { SearchPanel } from '../SearchPanel/SearchPanel';
 
 interface Data {
     author?: string,
@@ -37,8 +38,16 @@ export const Home = () => {
 
     return (
         <>
+            <SearchPanel/>
+        </>
+    )
+}
 
-            <TextField
+
+
+
+
+{/* <TextField
                 label="Имя"
                 onChange={(newValue) => handleTitleChange(newValue)} />
 
@@ -64,7 +73,4 @@ export const Home = () => {
                     <span>Цена: {post.content}</span>
                 </div>
 
-            }
-        </>
-    )
-}
+            } */}

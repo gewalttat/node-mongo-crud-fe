@@ -20,7 +20,7 @@ export const ClothesCard: FC<ClothesCardProps> = ({name, size, price, num}) => {
         <CardMedia
           component="img"
           height="300"
-          image={require("../static/hoodie.jpeg")}
+          image={require("../static/jpg/hoodie.jpeg")}
           alt="green iguana"
         />
         <CardContent>

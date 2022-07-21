@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {FC} from 'react';
 import { Link } from 'react-router-dom';
-import './MainMenu.scss';
+import {Logo} from '../static/Logo'
+import styles from './MainMenu.module.scss'
 
-export const MainMenu = () => {
+export const MainMenu: FC = () => {
     return (
-        <div className='parent'>
-            <Link to="/sweatshirts" className='div1'>СВИТШОТЫ</Link>
-            <Link to="/t-shirts" className='div2'>ФУТБОЛКИ</Link>
-            <Link to="/hoodies" className='div3'>ХУДИ</Link>
-            <Link to="/contacts" className='div4'>КОНТАКТЫ</Link>
+        <div className={styles.parent}>
+            <Link to="/" className={styles.parent__navHome}>HOME</Link>
+            <Link to="/sweatshirts" className={styles.parent__navSweatshirts}>SWEATSHIRTS</Link>
+            <Link to="/t-shirts" className={styles.parent__navTshirts}>T-SHIRTS</Link>
+            <Link to="/hoodies" className={styles.parent__navHoodies}>HOODIES</Link>
+            <Link to="/contacts" className={styles.parent__navContacts}>CONTACTS</Link>
         </div>
     );
 };
