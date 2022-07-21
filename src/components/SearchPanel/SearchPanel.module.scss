@@ -3,14 +3,18 @@
 .searchPanelContainer {
     width: 100%;
     background-color: rgb(58, 58, 58);
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 80% repeat(3, 1fr);
+    grid-template-rows: 150px repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 
     &__searchBar {
+        grid-area: 1 / 2 / 2 / 3;
+        margin-top: 50px;
+        margin-left: 170px;
         width: 50%;
-        height: 30px;
+        height: 40px;
         border: none;
         display: inline-flex;
 
@@ -20,7 +24,9 @@
             outline: none;
             background-color: darkgrey;
             border: none;
-            padding-left: 10px
+            padding-left: 10px;
+            font-family: 'Yuji Syuku', serif;
+            font-size: 18px;
         }
     }
 }

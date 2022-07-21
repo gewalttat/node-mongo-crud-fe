@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.logoContainer {
+    font-family: 'Yuji Syuku', serif;
+    font-size: 30px;
+    color: whitesmoke;
+    grid-area: 1 / 1 / 2 / 2;
+    &__logo {
+        display: inline-flex;
+        margin: 35px 0 0 50px;
+        &__SVG {
+            width: 30px;
+            height: 30px;
+            padding: 5px 10px 0 10px;
+        }
+    }
+    &__logoSubText {
+        font-family: 'Comfortaa', cursive;
+        font-size: 14px;
+        margin: 0 0 0 55px;
+    }
+    
+}
