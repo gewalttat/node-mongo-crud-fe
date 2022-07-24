@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kanit:wght@500&display=swap');
+
+.homeCardsContainer {
+    position: relative;
+    display: grid;
+    margin: 24px 24px 100px 80px;
+    grid-template-columns: repeat(2, 47%);
+    // grid-template-rows: 60%;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    height: 60%;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Kanit', sans-serif;
+
+    &__woman {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    &__man {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    &__womanImage {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        
+    }
+
+    &__manImage {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__womanText {
+        position: absolute;
+        font-size: 48px;
+        color: whitesmoke;
+        top: 45%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__manText {
+        position: absolute;
+        font-size: 3em;
+        color: whitesmoke;
+        top: 45%;
+        right: 20%;
+        transform: translate(-50%, -50%);
+    }
+}
