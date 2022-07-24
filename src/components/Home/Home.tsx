@@ -3,6 +3,7 @@ import axios from 'axios';
 // import moment from 'moment';
 import { Button, TextField } from '@mui/material';
 import { SearchPanel } from '../SearchPanel/SearchPanel';
+import HomeCards from '../HomeCards/HomeCards';
 
 interface Data {
     author?: string,
@@ -39,6 +40,7 @@ export const Home = () => {
     return (
         <>
             <SearchPanel/>
+            <HomeCards/>
         </>
     )
 }

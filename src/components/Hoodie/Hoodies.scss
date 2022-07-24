@@ -1,5 +1,6 @@
 .parent_hoodie {
-    margin: 24px;
+    z-index: 0;
+    margin: 24px 24px 100px 24px;
     display: grid;
     grid-template-columns: 10% repeat(3, 25%) 1fr;
     grid-template-rows: repeat(3, 400px);
